@@ -1,8 +1,8 @@
-# 4-class-project
+# 4-sign-up-form
 
-_4-class-project_
+_4-sign-up-form_
 
-This project is my first one with HTML, CSS and JavaScript. Pull request are welcome, but priority for project author! Thank you for your cooperation!
+This is class project with HTML and CSS. Pull request are welcome, but priority for project author! Thank you for your cooperation!
 
 Site published at: https://dalram.github.io/to-do-list/
 
