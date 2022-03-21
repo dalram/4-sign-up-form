@@ -14,7 +14,7 @@ Design: [] (https://cdn.discordapp.com/attachments/850245533838868480/8502463682
 -   fixed width container
 -   header: logo + nav
 -   png images
-
+-   HTML form
 ## Authors
 
 Dalius : [Github](https://github.com/dalram)
