@@ -21,6 +21,8 @@ body {
     background-color: #008fae;
     float: left;
     color: #fff;
+    background-image: url(../img/hill.png);
+    background-size: cover;
 }
 .main-title {
     width: 100%;
