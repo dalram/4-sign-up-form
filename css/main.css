@@ -1,15 +1,3 @@
-body,
-body * {
-    margin: 0;
-    padding: 0;
-    vertical-align: top;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #667699;
-}
 .container {
     width: 800px;
     margin-left: calc(50% - 400px);
@@ -23,6 +11,7 @@ body {
     color: #fff;
     background-image: url(../img/hill.png);
     background-size: cover;
+    background-position: center;
 }
 .main-title {
     width: 100%;
@@ -30,9 +19,6 @@ body {
     font-size: 40px;
     font-weight: normal;
     margin-bottom: 300px;
-}
-.bottom-links {
-    
 }
 .bottom-links > .link {
     color: #fff;
@@ -44,6 +30,11 @@ body {
     background-color: #fff;;
     float: left; 
 }
+
+.close {
+
+}
+
 /* 1. Kaip padaryti, kad vienas elementas reaguotu i kito elemento auksti ir atitinkamai augtu ar mazetu.
 2. Elementu pozicionavimas i virsu ir i apacia.
 3. Mygtuko background color gradiant`as (perejimas is vienos spalvos i kita).
