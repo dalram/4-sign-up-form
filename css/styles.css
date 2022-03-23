@@ -20,12 +20,11 @@ body {
     padding: 40px;
     background-color: #008fae;
     float: left;
-    color: white;
-    
+    color: #fff;
 }
 .main-title {
     width: 100%;
-    color: white;
+    color: #fff;
     font-size: 40px;
     font-weight: normal;
     margin-bottom: 300px;
