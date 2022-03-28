@@ -1,6 +1,12 @@
 body {
     height: 100vh;
     position: relative;
+    background-image: url(../img/hill.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    /* filter: blur(40px); jei noriu issiaiskinti kaip veikia, tai paziureti praeitos grupes video */
+    backdrop-filter: blur(2px);
 }
 .container {
     width: 800px;
