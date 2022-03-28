@@ -1,9 +1,14 @@
+body {
+    height: 100vh;
+    position: relative;
+}
 .container {
     width: 800px;
-    margin-left: calc(50% - 400px);
-    margin-top: 100px;
     display: inline-block;
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .left-column {
     width: 40%;
@@ -54,6 +59,7 @@
     top: 0;
     color: #808080;
     cursor: pointer;
+
 }
 /* norint elementa tiksliai pozicionuot, reikia pozicionuot pagal tevini elementa */
 /* 1. Kaip padaryti, kad vienas elementas reaguotu i kito elemento auksti ir atitinkamai augtu ar mazetu.
