@@ -53,6 +53,7 @@
     right: 0;
     top: 0;
     color: #808080;
+    cursor: pointer;
 }
 /* norint elementa tiksliai pozicionuot, reikia pozicionuot pagal tevini elementa */
 /* 1. Kaip padaryti, kad vienas elementas reaguotu i kito elemento auksti ir atitinkamai augtu ar mazetu.
