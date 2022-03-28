@@ -1,0 +1,63 @@
+.container {
+    width: 800px;
+    margin-left: calc(50% - 400px);
+    margin-top: 100px;
+    display: inline-block;
+    position: relative;
+}
+.left-column {
+    width: 40%;
+    padding: 40px;
+    background-color: #008fae;
+    color: #fff;
+    background-image: url(../img/hill.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 30px;
+    top: 30px;
+
+}
+.main-title {
+    width: 100%;
+    color: #fff;
+    font-size: 40px;
+    font-weight: normal;
+    
+}
+.bottom-links > .link {
+    color: #fff;
+}
+.bottom-links {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    right: 40px;
+}
+.right-column {
+    width: 60%;
+    padding: 60px;
+    background-color: #fff;;
+    float: right; 
+    position: relative;
+    /* absolut elementas statomas i artimiausia tevyni ne statini elementa */
+}
+
+.close {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 54px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #808080;
+    cursor: pointer;
+}
+/* norint elementa tiksliai pozicionuot, reikia pozicionuot pagal tevini elementa */
+/* 1. Kaip padaryti, kad vienas elementas reaguotu i kito elemento auksti ir atitinkamai augtu ar mazetu.
+2. Elementu pozicionavimas i virsu ir i apacia.
+3. Mygtuko background color gradiant`as (perejimas is vienos spalvos i kita).
+4. Horizontaliai ir vertikaliai visas kontentas turi buti ekrano centre visada.
+*/
